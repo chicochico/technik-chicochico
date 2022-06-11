@@ -15,10 +15,10 @@ enum layers {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_BASE] = LAYOUT_ortho_4x12(
-    KC_TAB,                   KC_Q,     KC_W,    KC_E,    KC_R,  KC_T,                  KC_Y,                  KC_U,           KC_I,     KC_O,    KC_P,      KC_BSPACE,
-    KC_ESCAPE,                KC_A,     KC_S,    KC_D,    KC_F,  KC_G,                  KC_H,                  KC_J,           KC_K,     KC_L,    KC_SCOLON, KC_QUOTE,
-    MT(MOD_LSFT,KC_LBRACKET), KC_Z,     KC_X,    KC_C,    KC_V,  KC_B,                  KC_N,                  KC_M,           KC_COMMA, KC_DOT,  KC_SLASH,  MT(MOD_RSFT,KC_RBRACKET),
-    MO(5),                    KC_LCTRL, KC_LALT, KC_LGUI, MO(1), MT(MOD_LCTL,KC_SPACE), MT(MOD_LCTL,KC_SPACE), LT(2,KC_ENTER), KC_LEFT,  KC_DOWN, KC_UP,     KC_RIGHT
+    KC_TAB,                   KC_Q,     KC_W,    KC_E,    KC_R,            KC_T,                   KC_Y,                   KC_U,            KC_I,     KC_O,    KC_P,      KC_BSPACE,
+    KC_ESCAPE,                KC_A,     KC_S,    KC_D,    KC_F,            KC_G,                   KC_H,                   KC_J,            KC_K,     KC_L,    KC_SCOLON, KC_QUOTE,
+    MT(MOD_LSFT,KC_LBRACKET), KC_Z,     KC_X,    KC_C,    KC_V,            KC_B,                   KC_N,                   KC_M,            KC_COMMA, KC_DOT,  KC_SLASH,  MT(MOD_RSFT,KC_RBRACKET),
+    MO(5),                    KC_LCTRL, KC_LALT, KC_LGUI, LT(1, KC_SPACE), MT(MOD_LCTL, KC_ENTER), MT(MOD_LCTL, KC_ENTER), LT(2, KC_SPACE), KC_LEFT,  KC_DOWN, KC_UP,     KC_RIGHT
   ),
 
   [_LOWER] = LAYOUT_ortho_4x12(
