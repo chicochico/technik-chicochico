@@ -16,4 +16,4 @@ util/docker_build.sh boardsource/technik_o:chico
 ```
 
 A firmware file `planck_ez_glow_planck-chicochico.bin` will be created in the root of the project.\
-Use [Wally](https://github.com/zsa/wally) to flash the keyboard.
+Use [QMK Toolbox](https://github.com/qmk/qmk_toolbox) to flash the keyboard.
