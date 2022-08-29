@@ -16,7 +16,7 @@ enum layers {
 #define LOW_ENT  LT(_LOWER, KC_ENT)
 #define RAI_ENT  LT(_RAISE, KC_ENT)
 #define LSFT_LB  MT(MOD_LSFT, KC_LBRC)
-#define RSFT_RB  MT(MOD_RSFT,KC_RBRC)
+#define RSFT_RB  MT(MOD_RSFT, KC_RBRC)
 #define NAV      MO(_NAV)
 #define CTL_SPC  MT(MOD_LCTL, KC_SPC)
 #define SCR_SHT  LGUI(LSFT(KC_5))
@@ -69,8 +69,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [_NAV] = LAYOUT_ortho_4x12(
-    _______, _______, _______, KC_WH_U, KC_WH_D, _______, _______, KC_BTN1, KC_MS_U, KC_BTN2, _______, _______,
-    _______, _______, _______, KC_BTN1, KC_BTN2, _______, _______, KC_MS_L, KC_MS_D, KC_MS_R, _______, _______,
+    _______, _______, KC_END,  KC_MS_U, KC_HOME, _______, _______, KC_WH_D, KC_WH_U, _______, _______, _______,
+    _______, _______, KC_MS_L, KC_MS_D, KC_MS_R, _______, _______, KC_BTN1, KC_BTN2, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
   ),
